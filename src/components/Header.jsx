@@ -6,7 +6,7 @@ export default function Header() {
     let date = today.toLocaleDateString('en-US', options);
 
   return (
-    <div className="header py-5 ps-3 pe-4 d-flex justify-content-between align-items-end">
+    <div className="header pt-3 ps-3 pe-4 d-flex justify-content-between align-items-end">
       <h1>Welcome</h1>
       <p>{date}</p>
     </div>

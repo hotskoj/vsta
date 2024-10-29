@@ -32,7 +32,7 @@ export default function Form(props) {
                 </select>
             </div>
             <div className="container py-3">
-                <button type="submit" className="btn btn-outline-dark">Add</button>
+                <button type="submit" className="btn btn-primary">Add</button>
             </div>
         </form>
   )
